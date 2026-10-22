@@ -48,6 +48,12 @@ It is built only on Apple's frameworks. There are no third-party dependencies, n
    xattr -dr com.apple.quarantine /Applications/SysBar.app
    ```
 
+Every release zip is built by GitHub Actions from its version tag and carries a signed [build provenance attestation](https://docs.github.com/en/actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds). To check that a download came from this repository's code, run:
+
+```bash
+gh attestation verify SysBar-x.y.z.zip -R SwifAI/sysbar
+```
+
 ### Build from source
 
 Building requires Swift 6.0+ and Xcode 16+.
@@ -153,6 +159,7 @@ Before tagging a release:
 
    Targets: at most 0.30 CPU-seconds between the two `ps -o time=` readings, and a physical footprint (including peak) under 45 MiB. RSS is recorded for context only.
 3. Record the host, macOS version, toolchain, the two size lines printed by `./build.sh`, and each measurement against its target in the release's CHANGELOG entry and release notes. Keep measured numbers out of this README. A result over target blocks the release until it is fixed or explained there.
+4. Bump `VERSION` and `BUILD_NUMBER` in `build.sh`, merge, then tag the merge commit `vX.Y.Z` and push the tag. The [Release workflow](.github/workflows/release.yml) checks that the tag matches `build.sh`, re-runs the tests, builds the zip with its SHA-256 and a build provenance attestation, and creates a **draft** release from the CHANGELOG entry. Review the draft and publish it. Published releases are immutable, so check the notes first.
 
 ## License
 
