@@ -13,8 +13,8 @@ set -euo pipefail
 
 APP_NAME="SysBar"
 BUNDLE_ID="io.github.swifai.sysbar"
-VERSION="1.2.0"
-BUILD_NUMBER="3"
+VERSION="1.2.1"
+BUILD_NUMBER="4"
 
 # Release size budgets (docs/adr/ADR-018). This is the one place they are set.
 # Exact bytes, not disk blocks: the executable is `stat -f %z`, and the bundle is

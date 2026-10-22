@@ -7,12 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-10-23
+
 ### Fixed
 
 - Opening the popover right after a background sample could show SysBar itself, and other
   briefly busy processes, at about 100% CPU in Top CPU for one update. Process CPU is now
   only computed over at least one second; a sample that comes sooner repeats the last full
   reading.
+
+### Performance
+
+Measured on an Apple M5 Max with macOS 27.0.1, using the release checklist in the README:
+
+- Popover closed: 0.09 CPU-seconds over 30 seconds (target 0.30), physical footprint 20.2 MB
+  with a peak of 22.7 MB (target under 45 MiB).
+- Release executable 1.63 MiB, app bundle 2.21 MiB.
 
 ## [1.2.0] - 2026-10-16
 
@@ -56,5 +66,6 @@ Measured on an Apple M5 Max with macOS 27.0.1, using the release checklist in th
 - Popover open and idle: 1.4–1.9% CPU.
 - Release executable 1.63 MiB, app bundle 2.30 MiB.
 
-[Unreleased]: https://github.com/SwifAI/sysbar/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/SwifAI/sysbar/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/SwifAI/sysbar/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/SwifAI/sysbar/releases/tag/v1.2.0
