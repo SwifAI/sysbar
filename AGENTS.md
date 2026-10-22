@@ -60,7 +60,10 @@ describes. README's "Release checklist" is the manual pre-release CPU/footprint 
 
 CI (`.github/workflows/ci.yml`, matrix `macos-15`/`macos-26`) runs, in order:
 `swift test` -> strict-concurrency warnings-as-errors build -> `./build.sh`. Treat all
-three as required gates before considering a change done.
+three as required gates before considering a change done. `.github/workflows/release.yml`
+runs on `vX.Y.Z` tags (and as a dry run on pull requests that touch it or `build.sh`):
+it checks the tag against `build.sh`'s `VERSION`, tests, builds, zips, writes the SHA-256,
+attests build provenance, and creates a draft release from the CHANGELOG entry.
 
 ## Architecture
 

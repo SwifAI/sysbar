@@ -1,0 +1,132 @@
+name: Release
+
+# A version tag (v1.2.3) builds, tests, packages and attests the app, then
+# creates a draft release from the matching CHANGELOG entry for a maintainer to
+# review and publish. Pull requests that touch packaging run the same steps as a
+# dry run, without creating a release.
+on:
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+"]
+  pull_request:
+    paths:
+      - .github/workflows/release.yml
+      - build.sh
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: macos-26
+    timeout-minutes: 30
+    permissions:
+      contents: write # create the draft release (tags only)
+      id-token: write # sign the build provenance attestation
+      attestations: write # store the attestation
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Read version
+        id: version
+        run: |
+          version="$(sed -n 's/^VERSION="\(.*\)"$/\1/p' build.sh)"
+          if [ -z "$version" ]; then
+            echo "::error file=build.sh::VERSION not found"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Check tag matches build.sh
+        if: github.ref_type == 'tag'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if [ "$GITHUB_REF_NAME" != "v$VERSION" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match VERSION=$VERSION in build.sh"
+            exit 1
+          fi
+
+      - name: Toolchain
+        run: swift --version
+
+      - name: Regression tests
+        run: swift test
+
+      - name: Build and verify signed Apple Silicon bundle
+        run: ./build.sh
+
+      - name: Package
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          mkdir dist
+          ditto -c -k --sequesterRsrc --keepParent build/SysBar.app "dist/SysBar-$VERSION.zip"
+          (cd dist && shasum -a 256 "SysBar-$VERSION.zip" > "SysBar-$VERSION.zip.sha256")
+          cat "dist/SysBar-$VERSION.zip.sha256"
+
+      - name: Attest build provenance
+        # Fork pull requests get no OIDC token, so they skip the attestation.
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: dist/SysBar-${{ steps.version.outputs.version }}.zip
+
+      - name: Upload build
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: SysBar-${{ steps.version.outputs.version }}
+          path: dist/
+          if-no-files-found: error
+
+      - name: Write release notes
+        if: github.ref_type == 'tag'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          # The CHANGELOG section for this version, without its heading.
+          awk -v heading="## [$VERSION]" '
+            index($0, heading) == 1 { found = 1; next }
+            found && /^## \[/ { exit }
+            found && /^\[[^]]+\]: / { exit }
+            found { print }
+          ' CHANGELOG.md > notes.md
+          if ! grep -q '[^[:space:]]' notes.md; then
+            echo "::error file=CHANGELOG.md::No entry for [$VERSION]"
+            exit 1
+          fi
+          sha="$(cut -d ' ' -f 1 "dist/SysBar-$VERSION.zip.sha256")"
+          cat >> notes.md <<EOF
+
+          ## Install
+
+          Requires macOS 13 or later on an Apple Silicon Mac. Download \`SysBar-$VERSION.zip\`, unzip it, and move **SysBar.app** to Applications. The build is ad-hoc signed, not notarized: on first launch, open **System Settings → Privacy & Security** and click **Open Anyway**, or run \`xattr -dr com.apple.quarantine /Applications/SysBar.app\`.
+
+          ## Verify the download
+
+          \`\`\`bash
+          shasum -a 256 SysBar-$VERSION.zip   # $sha
+          gh attestation verify SysBar-$VERSION.zip -R $GITHUB_REPOSITORY
+          \`\`\`
+
+          The attestation proves this zip was built by this repository's Release workflow from tag \`$GITHUB_REF_NAME\`.
+          EOF
+
+      - name: Create draft release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "dist/SysBar-$VERSION.zip" "dist/SysBar-$VERSION.zip.sha256" \
+            --repo "$GITHUB_REPOSITORY" \
+            --draft --verify-tag \
+            --title "SysBar $VERSION" \
+            --notes-file notes.md
