@@ -1,0 +1,1098 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Keep Awake" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Keep Awake" } } }
+    },
+    "Display stays awake" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Display stays awake" } } }
+    },
+    "Display may sleep" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Display may sleep" } } }
+    },
+    "All" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "All" } } }
+    },
+    "Listener scope" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Listener scope" } } }
+    },
+    "No matching listeners" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "No matching listeners" } } }
+    },
+    "Try a process name, PID, port, or address." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Try a process name, PID, port, or address." } } }
+    },
+    "Clear filters" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear filters" } } }
+    },
+    "Search name, PID, port…" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Search name, PID, port…" } } }
+    },
+    "Search listening ports" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Search listening ports" } } }
+    },
+    "Clear search" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear search" } } }
+    },
+    "state.action.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@: %@" } } }
+    },
+    "listeners.filtered.count" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Showing %@ of %@ listeners" } } }
+    },
+    "Action completed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Action completed" } } }
+    },
+    "Action partially completed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Action partially completed" } } }
+    },
+    "Alerts" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Alerts" } } }
+    },
+    "Cancel" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } } }
+    },
+    "Copy Address" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy Address" } } }
+    },
+    "Copy Executable Path" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy Executable Path" } } }
+    },
+    "Copy Port" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy Port" } } }
+    },
+    "Copy Process IDs" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy Process IDs" } } }
+    },
+    "Force Quit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force Quit" } } }
+    },
+    "Force Quit Process" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force Quit Process" } } }
+    },
+    "Listening Ports" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Listening Ports" } } }
+    },
+    "Listening ports unavailable" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Listening ports unavailable" } } }
+    },
+    "Login item needs approval" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Login item needs approval" } } }
+    },
+    "Network unavailable" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Network unavailable" } } }
+    },
+    "No listening ports detected" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "No listening ports detected" } } }
+    },
+    "No signal sent" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "No signal sent" } } }
+    },
+    "Open Activity Monitor" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Activity Monitor" } } }
+    },
+    "Open Settings" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Settings" } } }
+    },
+    "Process data unavailable" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Process data unavailable" } } }
+    },
+    "Quit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit" } } }
+    },
+    "Quit Process" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit Process" } } }
+    },
+    "Refresh" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Refresh" } } }
+    },
+    "Retry" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Retry" } } }
+    },
+    "Some data unavailable" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Some data unavailable" } } }
+    },
+    "SysBar" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "SysBar" } } }
+    },
+    "Top CPU" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Top CPU" } } }
+    },
+    "Top Memory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Top Memory" } } }
+    },
+    "Update delayed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Update delayed" } } }
+    },
+    "Updating" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updating" } } }
+    },
+    "Data current" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Data current" } } }
+    },
+    "VPN connected" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "VPN connected" } } }
+    },
+    "VPN disconnected" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "VPN disconnected" } } }
+    },
+    "Alerts active" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Alerts active" } } }
+    },
+    "Alerts off" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Alerts off" } } }
+    },
+    "Alerts unavailable" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Alerts unavailable" } } }
+    },
+    "Confirm Process Action" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Confirm Process Action" } } }
+    },
+    "Critical" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Critical" } } }
+    },
+    "Disable alerts" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Disable alerts" } } }
+    },
+    "Enable alerts" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Enable alerts" } } }
+    },
+    "Enabled" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Enabled" } } }
+    },
+    "Login item unavailable" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Login item unavailable" } } }
+    },
+    "Memory critical" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Memory critical" } } }
+    },
+    "New LAN-exposed port" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "New LAN-exposed port" } } }
+    },
+    "Normal" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Normal" } } }
+    },
+    "Notification alerts disabled" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Notification alerts disabled" } } }
+    },
+    "Notification permission pending" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Notification permission pending" } } }
+    },
+    "Notifications denied" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Notifications denied" } } }
+    },
+    "Off" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Off" } } }
+    },
+    "On" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "On" } } }
+    },
+    "Open at Login" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open at Login" } } }
+    },
+    "Quit SysBar" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit SysBar" } } }
+    },
+    "System Services" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "System Services" } } }
+    },
+    "Shows system activity and opens SysBar" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Shows system activity and opens SysBar" } } }
+    },
+    "System service error" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "System service error" } } }
+    },
+    "Warning" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Warning" } } }
+    },
+    "Allow SysBar alerts in System Settings to receive warnings." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow SysBar alerts in System Settings to receive warnings." } } }
+    },
+    "Allow SysBar in Login Items in System Settings." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow SysBar in Login Items in System Settings." } } }
+    },
+    "Allow display sleep" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow display sleep" } } }
+    },
+    "CPU" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "CPU" } } }
+    },
+    "Collecting a second sample…" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Collecting a second sample…" } } }
+    },
+    "Complete the macOS permission request to enable alerts." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Complete the macOS permission request to enable alerts." } } }
+    },
+    "Disk Free" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Disk Free" } } }
+    },
+    "Force quit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force quit" } } }
+    },
+    "GB" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "GB" } } }
+    },
+    "KB/s" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "KB/s" } } }
+    },
+    "MB" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "MB" } } }
+    },
+    "MB/s" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "MB/s" } } }
+    },
+    "Memory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Memory" } } }
+    },
+    "No primary IP detected" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "No primary IP detected" } } }
+    },
+    "OK" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "OK" } } }
+    },
+    "Open Local Web Service" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Local Web Service" } } }
+    },
+    "Prevent display sleep" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Prevent display sleep" } } }
+    },
+    "Sampling processes" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Sampling processes" } } }
+    },
+    "Swap" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Swap" } } }
+    },
+    "SysBar will not post notifications." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "SysBar will not post notifications." } } }
+    },
+    "TB" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "TB" } } }
+    },
+    "The current launch environment cannot manage this service." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "The current launch environment cannot manage this service." } } }
+    },
+    "Updating CPU" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updating CPU" } } }
+    },
+    "Updating disk" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updating disk" } } }
+    },
+    "Updating memory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updating memory" } } }
+    },
+    "Updating network status" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updating network status" } } }
+    },
+    "Updating swap" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updating swap" } } }
+    },
+    "macOS notification status could not be confirmed." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "macOS notification status could not be confirmed." } } }
+    },
+    "macOS notifications and alert banners are enabled." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "macOS notifications and alert banners are enabled." } } }
+    },
+    "%" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%" } } }
+    },
+    "CPU usage" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "CPU usage" } } }
+    },
+    "Copy lsof Command" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy lsof Command" } } }
+    },
+    "Disk free space" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Disk free space" } } }
+    },
+    "Memory usage" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Memory usage" } } }
+    },
+    "Swap usage" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Swap usage" } } }
+    },
+    "TCP" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "TCP" } } }
+    },
+    "UDP" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "UDP" } } }
+    },
+    "accessibility.collection.status" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Collection status: %1$@" } } }
+    },
+    "accessibility.detail.status" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@, %2$@" } } }
+    },
+    "accessibility.status" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Status: %1$@" } } }
+    },
+    "actions.port" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Actions for port %1$@" } } }
+    },
+    "actions.process" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Actions for %1$@" } } }
+    },
+    "last.updated.error" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Last updated %1$@ · %2$@" } } }
+    },
+    "metric.cpu.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ percent, %2$@." } } }
+    },
+    "metric.cpu.accessibility.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ percent, %2$@. Peak %3$@ percent." } } }
+    },
+    "metric.cpu.peak.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Peak %1$@%%" } } }
+    },
+    "metric.disk.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ free of %3$@ %4$@, %5$@." } } }
+    },
+    "metric.disk.accessibility.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ free of %3$@ %4$@, %5$@. Peak used %6$@ percent." } } }
+    },
+    "metric.disk.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "of %1$@ %2$@ total" } } }
+    },
+    "metric.disk.detail.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "of %1$@ %2$@ total · Peak used %3$@%%" } } }
+    },
+    "metric.memory.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ used of %3$@ %4$@, %5$@ %6$@ available, %7$@." } } }
+    },
+    "metric.memory.accessibility.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ used of %3$@ %4$@, %5$@ %6$@ available, %7$@. Peak %8$@ percent." } } }
+    },
+    "metric.memory.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ available" } } }
+    },
+    "metric.memory.detail.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ available · Peak %3$@%%" } } }
+    },
+    "metric.percent.value" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@%%" } } }
+    },
+    "metric.swap.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ used of %3$@ %4$@, %5$@." } } }
+    },
+    "metric.swap.accessibility.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ used of %3$@ %4$@, %5$@. Peak %6$@ percent." } } }
+    },
+    "metric.swap.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "of %1$@ %2$@" } } }
+    },
+    "metric.swap.detail.peak" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "of %1$@ %2$@ · Peak %3$@%%" } } }
+    },
+    "metric.value.unit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@" } } }
+    },
+    "network.transfer" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "↑ %1$@  ↓ %2$@" } } }
+    },
+    "port.accessibility.label" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Port %1$@, %2$@" } } }
+    },
+    "port.accessibility.value" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@, %2$@" } } }
+    },
+    "port.help" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@, process %2$@, listening on %3$@:%4$@" } } }
+    },
+    "port.endpoint.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ · %2$@:%3$@" } } }
+    },
+    "ports.hideAll" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Hide port list" } } }
+    },
+    "ports.showAll" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Show all %@ ports" } } }
+    },
+    "ports.verdict.allow" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow" } } }
+    },
+    "ports.verdict.clear.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ ports belong to macOS or only this Mac can reach them. Nothing to do." } } }
+    },
+    "ports.verdict.clear.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Nothing risky is open" } } }
+    },
+    "ports.verdict.review.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Fine if you use it. If you don't recognize it, quit it. Allow stops this warning." } } }
+    },
+    "ports.verdict.review.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Other devices can connect to %@" } } }
+    },
+    "process.action.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@?" } } }
+    },
+    "process.changed.failed.pids" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "A process changed; no signal was sent to it. Failed PIDs: %1$@." } } }
+    },
+    "process.confirmation" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ (%3$@)? PIDs: %4$@." } } }
+    },
+    "process.count.badge" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "×%1$@" } } }
+    },
+    "process.failed.pids" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Failed PIDs: %1$@." } } }
+    },
+    "process.help" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ — %2$@" } } }
+    },
+    "status.loading.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "System activity is loading" } } }
+    },
+    "status.summary.accessibility" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "CPU %1$.0f percent, %2$.1f gigabytes memory available" } } }
+    },
+    "updated.time" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Updated %1$@" } } }
+    },
+    "error.cpu.statistics" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "host CPU statistics failed (%1$d)" } } }
+    },
+    "error.disk.inventory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "mounted volume inventory was unavailable" } } }
+    },
+    "error.lsof.exit.status" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "lsof exited with status %1$d" } } }
+    },
+    "error.lsof.failure" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "lsof failed: %1$@" } } }
+    },
+    "error.lsof.invalid.utf8" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "lsof output was not valid UTF-8" } } }
+    },
+    "error.lsof.launch" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "lsof launch failed: %1$@" } } }
+    },
+    "error.lsof.output.too.large" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "lsof output exceeded the size limit" } } }
+    },
+    "error.lsof.timeout" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "lsof timed out" } } }
+    },
+    "error.memory.implausible" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "memory accounting implausible (used %1$llu of %2$llu bytes)" } } }
+    },
+    "error.memory.statistics" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "host memory statistics failed (%1$d)" } } }
+    },
+    "error.memory.totalram" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "total RAM size unavailable" } } }
+    },
+    "error.memory.truncated" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "host memory statistics truncated (%1$d of %2$d fields)" } } }
+    },
+    "error.network.interfaces" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "network interfaces failed (errno %1$d)" } } }
+    },
+    "error.process.list" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "process list failed (errno %1$d)" } } }
+    },
+    "error.process.list.read" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "process list read failed (errno %1$d)" } } }
+    },
+    "error.swap.statistics" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "swap statistics failed (errno %1$d)" } } }
+    },
+    "items.count" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%ld item" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%ld items" } }
+            }
+          }
+        }
+      }
+    },
+    "processes.count" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%ld process" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%ld processes" } }
+            }
+          }
+        }
+      }
+    },
+    "processes.signaled.count" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Signaled %ld process." } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Signaled %ld processes." } }
+            }
+          }
+        }
+      }
+    },
+    "Hide details and actions" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Hide details and actions" } } }
+    },
+    "No internal volume detected" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "No internal volume detected" } } }
+    },
+    "Show details and actions" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Show details and actions" } } }
+    },
+    "alert.listener.body" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ is listening on %2$@:%3$@" } } }
+    },
+    "alert.memory.critical.body" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Only %1$lld MB available" } } }
+    },
+    "alert.vpn.connected.body" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Tunnel: %1$@ (%2$@)" } } }
+    },
+    "alert.vpn.disconnected.body" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Real IP: %1$@" } } }
+    },
+    "Now" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Now" } } }
+    },
+    "trace.scrub.age" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ ago" } } }
+    },
+    "trace.scrub.hint" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Use the Left and Right Arrow keys to review recent samples." } } }
+    },
+    "trace.axis.time" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Time" } } }
+    },
+    "trace.axis.percent" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Percent of capacity used" } } }
+    },
+    "trace.window.minutes" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "Last %ld minute" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "Last %ld minutes" } }
+            }
+          }
+        }
+      }
+    },
+    "Not in use" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Not in use" } } }
+    },
+    "macOS service" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "macOS service" } } }
+    },
+    "Edit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit" } } }
+    },
+    "Undo" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Undo" } } }
+    },
+    "Redo" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Redo" } } }
+    },
+    "Cut" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Cut" } } }
+    },
+    "Copy" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy" } } }
+    },
+    "Paste" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Paste" } } }
+    },
+    "Select All" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Select All" } } }
+    },
+    "Network" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Network" } } }
+    },
+    "VPN" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "VPN" } } }
+    },
+    "IP address" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "IP address" } } }
+    },
+    "DNS" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "DNS" } } }
+    },
+    "Traffic" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Traffic" } } }
+    },
+    "System default" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "System default" } } }
+    },
+    "This Mac" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "This Mac" } } }
+    },
+    "This Mac only" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "This Mac only" } } }
+    },
+    "Discovery" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Discovery" } } }
+    },
+    "Open to network" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open to network" } } }
+    },
+    "Network shows apps other devices can reach." : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Network shows apps other devices can reach." } } }
+    },
+    "Claude" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Claude" } } }
+    },
+    "Claude Code" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Claude Code" } } }
+    },
+    "Codex" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Codex" } } }
+    },
+    "attention.rule.disk" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Only %@ of disk space left" } } }
+    },
+    "attention.rule.diskFast" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ of disk space used up in %2$@" } } }
+    },
+    "attention.rule.hostCPU" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "CPU has averaged %1$@ for %2$@" } } }
+    },
+    "attention.rule.listener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ started accepting %2$@ connections on port %3$@" } } }
+    },
+    "attention.rule.memory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Only %1$@ of memory available for %2$@" } } }
+    },
+    "attention.rule.runaway" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ has used %2$@ CPU for %3$@" } } }
+    },
+    "attention.rule.swap" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Swap grew by %1$@ in the last %2$@" } } }
+    },
+    "brief.action.showPorts" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Show in Network" } } }
+    },
+    "brief.action.showTopCPU" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Show in Top CPU" } } }
+    },
+    "brief.action.showTopMemory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Show in Top Memory" } } }
+    },
+    "brief.asking" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Asking %@…" } } }
+    },
+    "brief.confidence.high" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "high" } } }
+    },
+    "brief.confidence.low" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "low" } } }
+    },
+    "brief.confidence.medium" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "medium" } } }
+    },
+    "brief.dismiss" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Dismiss" } } }
+    },
+    "brief.failure.busy" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ is busy or over its limit right now." } } }
+    },
+    "brief.failure.generic" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ couldn't answer. Try again." } } }
+    },
+    "brief.failure.notInstalled" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ isn't installed, or isn't the signed build. SysBar's own measurements are shown." } } }
+    },
+    "brief.failure.paused" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ paused: %2$ld briefs in the last hour." } } }
+    },
+    "brief.failure.rejected" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@'s answer didn't pass SysBar's checks." } } }
+    },
+    "brief.failure.signIn" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Sign in to %@ in Terminal, then try again." } } }
+    },
+    "brief.failure.timedOut" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ took too long. Try again." } } }
+    },
+    "brief.likelyCause" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Likely cause" } } }
+    },
+    "brief.muteToday" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Mute today" } } }
+    },
+    "brief.provenance" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ · %2$@ · %3$@ confidence · %4$@" } } }
+    },
+    "brief.refresh" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Refresh" } } }
+    },
+    "brief.tryAgain" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Try again" } } }
+    },
+    "brief.waitingForData" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Waiting for current data" } } }
+    },
+    "notification.fact.body" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open SysBar for details." } } }
+    },
+    "provider.control.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "AI briefs" } } }
+    },
+    "provider.model.claude" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Opus · fast" } } }
+    },
+    "provider.model.codex" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Codex · fast" } } }
+    },
+    "provider.none.installed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Install Claude Code or Codex to get briefs" } } }
+    },
+    "provider.state.notInstalled" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Not installed" } } }
+    },
+    "provider.state.probing" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Checking…" } } }
+    },
+    "provider.state.ready" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ %2$@ · signed in · %3$@" } } }
+    },
+    "provider.state.signInNeeded.claude" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ · sign in needed (run claude in Terminal)" } } }
+    },
+    "provider.state.signInNeeded.codex" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ · sign in needed (run codex login)" } } }
+    },
+    "provider.state.unverified" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Unverified build — not used" } } }
+    },
+    "review.overall.attention" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "needs attention" } } }
+    },
+    "review.overall.healthy" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "healthy" } } }
+    },
+    "review.overall.watch" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "worth watching" } } }
+    },
+    "review.running" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ is reviewing your Mac…" } } }
+    },
+    "review.title.attention" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Needs attention" } } }
+    },
+    "review.title.healthy" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Healthy" } } }
+    },
+    "review.title.nothingToDo" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Healthy · nothing to do" } } }
+    },
+    "review.title.watch" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Worth watching" } } }
+    },
+    "status.dismissed.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Dismissed · %@" } } }
+    },
+    "status.history.entry" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ · %2$@–%3$@ · resolved" } } }
+    },
+    "status.history.heading" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Earlier today" } } }
+    },
+    "status.muted.entry" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Muted today: %@" } } }
+    },
+    "status.normal.headline" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Everything looks normal" } } }
+    },
+    "status.normal.noted" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Noted: %@" } } }
+    },
+    "status.normal.reviewed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Reviewed %1$@ · %2$@" } } }
+    },
+    "status.normal.watching" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Watching apps, memory, swap, disk and network" } } }
+    },
+    "status.provider.active" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Briefs by %@ · Change" } } }
+    },
+    "status.provider.off" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "AI briefs off · Turn on" } } }
+    },
+    "status.provider.paused" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "AI briefs paused · %@" } } }
+    },
+    "status.review.button" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Review now" } } }
+    },
+    "status.unmute" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Unmute" } } }
+    },
+    "status.attention.count" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%ld thing needs attention" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%ld things need attention" } }
+            }
+          }
+        }
+      }
+    },
+    "action.allowListener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow %1$@ on %2$@" } } }
+    },
+    "action.caption.allowListener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "SysBar stops flagging this port; it still shows in Network." } } }
+    },
+    "action.caption.forceQuit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Ends it immediately; unsaved work is lost." } } }
+    },
+    "action.caption.openApp" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Brings %@ forward so you can check it." } } }
+    },
+    "action.caption.openSharingSettings" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Turn off sharing services you don't use." } } }
+    },
+    "action.caption.openStorageSettings" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "macOS shows what is using space and what can be removed." } } }
+    },
+    "action.caption.quitApp" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quits %@ normally; it may ask to save first." } } }
+    },
+    "action.caption.quitProcesses" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Sends Quit to the process; unsaved work in it is lost." } } }
+    },
+    "action.caption.reopen" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Opens %@ again." } } }
+    },
+    "action.caption.restartApp" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Restart quits %@ and reopens it; it may ask to save first." } } }
+    },
+    "action.caption.snooze15" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "SysBar asks again in 15 minutes if it's still happening." } } }
+    },
+    "action.caption.stopListener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Asks %@ to quit once SysBar re-checks it still owns this port." } } }
+    },
+    "action.confirm.forceQuit.button" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force Quit" } } }
+    },
+    "action.confirm.forceQuit.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force Quit %@?" } } }
+    },
+    "action.confirm.forceQuitApp.message" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force quitting ends %1$@ immediately; unsaved work in %1$@ is lost." } } }
+    },
+    "action.confirm.quit.button" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit" } } }
+    },
+    "action.confirm.quit.message" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ (%2$@ processes). PIDs: %3$@. Unsaved work in them is lost." } } }
+    },
+    "action.confirm.quit.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit %@?" } } }
+    },
+    "action.confirm.stopListener.button" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Stop" } } }
+    },
+    "action.confirm.stopListener.message" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ (PID %2$@, %3$@) is accepting network connections on %4$@. SysBar re-checks that this process still owns the port, then asks it to quit. Unsaved work in it is lost." } } }
+    },
+    "action.confirm.stopListener.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Stop %@?" } } }
+    },
+    "action.forceQuit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force Quit %@…" } } }
+    },
+    "action.keepWatching" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Keep watching" } } }
+    },
+    "action.openApp" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open %@" } } }
+    },
+    "action.openSharingSettings" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Sharing Settings" } } }
+    },
+    "action.openStorageSettings" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Storage Settings" } } }
+    },
+    "action.progress.checking" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Checking…" } } }
+    },
+    "action.progress.checkingOwner" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Checking that %1$@ still owns port %2$@…" } } }
+    },
+    "action.progress.checkingValue" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Checking · %@" } } }
+    },
+    "action.progress.forceQuitting" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Force quitting %@…" } } }
+    },
+    "action.progress.quit" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ quit · reopening…" } } }
+    },
+    "action.progress.quitting" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Asked %@ to quit · waiting up to 20 s" } } }
+    },
+    "action.progress.quittingProcesses" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quitting %@…" } } }
+    },
+    "action.progress.reopening" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Reopening %@…" } } }
+    },
+    "action.progress.stopping" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Stopping %@…" } } }
+    },
+    "action.quitApp" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit %@" } } }
+    },
+    "action.quitProcesses.many" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit %1$@ (%2$@ processes)…" } } }
+    },
+    "action.reopen" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Reopen %@" } } }
+    },
+    "action.restartApp" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Restart %@" } } }
+    },
+    "action.result.activateFailed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Couldn't bring %@ forward" } } }
+    },
+    "action.result.allowed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allowed · SysBar won't flag this port again" } } }
+    },
+    "action.result.done" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Done · %@" } } }
+    },
+    "action.result.done.calm" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ is back to normal" } } }
+    },
+    "action.result.done.cpu" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ back to %2$@" } } }
+    },
+    "action.result.done.disk" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "no longer dropping · %@ free" } } }
+    },
+    "action.result.done.hostCPU" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "CPU back to %@" } } }
+    },
+    "action.result.done.listener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "port %@ closed" } } }
+    },
+    "action.result.done.memory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ available" } } }
+    },
+    "action.result.done.reopened" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ reopened" } } }
+    },
+    "action.result.done.swap" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "swap stopped growing" } } }
+    },
+    "action.result.gone" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ is no longer running" } } }
+    },
+    "action.result.identityChanged" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "A process changed; no signal was sent to it." } } }
+    },
+    "action.result.joined" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ · %2$@" } } }
+    },
+    "action.result.notAccepted" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ didn't accept the quit request" } } }
+    },
+    "action.result.otherOwner" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Port %@ now belongs to another process; nothing was stopped." } } }
+    },
+    "action.result.portClosed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Port %@ is already closed; nothing was stopped." } } }
+    },
+    "action.result.recheckFailed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Couldn't re-check port %@; nothing was stopped." } } }
+    },
+    "action.result.relaunchFailed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ quit but couldn't be reopened" } } }
+    },
+    "action.result.settingsFailed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "System Settings couldn't be opened" } } }
+    },
+    "action.result.settingsOpened" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Opened in System Settings" } } }
+    },
+    "action.result.still.cpu" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Still at %1$@ after %2$@" } } }
+    },
+    "action.result.still.disk" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Still dropping · %@ free" } } }
+    },
+    "action.result.still.listener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Port %@ is still open" } } }
+    },
+    "action.result.still.memory" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Still only %@ available" } } }
+    },
+    "action.result.still.swap" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Swap is still growing" } } }
+    },
+    "action.result.stillRunning" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ is still running — it may be asking you to save." } } }
+    },
+    "action.showNow" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Show now" } } }
+    },
+    "action.snooze15" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Remind me in 15 min" } } }
+    },
+    "action.stopListener" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Stop %@…" } } }
+    },
+    "action.value.free" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ free" } } }
+    },
+    "brief.details" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Details" } } }
+    },
+    "brief.hint.suffix" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "treat as a hint" } } }
+    },
+    "brief.manualStep" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Also: %@" } } }
+    },
+    "brief.measured.label" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Measured: %@" } } }
+    },
+    "brief.since" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Since %@" } } }
+    },
+    "notification.result.still" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ — open SysBar" } } }
+    },
+    "notification.still.title" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Still: %@" } } }
+    },
+    "status.allowed.entry" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Allowed: %1$@ on %2$@" } } }
+    },
+    "status.allowed.remove" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Remove" } } }
+    },
+    "status.history.fixed" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ · %2$@–%3$@ · fixed by %4$@" } } }
+    },
+    "status.snoozed.detail" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Snoozed until %1$@ · %2$@" } } }
+    },
+    "brief.suggestionDropped" : {
+      "localizations" : { "en" : { "variations" : { "plural" : {
+        "one" : { "stringUnit" : { "state" : "translated", "value" : "%ld suggestion dropped" } },
+        "other" : { "stringUnit" : { "state" : "translated", "value" : "%ld suggestions dropped" } }
+      } } } }
+    },
+    "brief.more" : {
+      "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "More" } } }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,13 @@
+.build/
+build/
+Package.resolved
+.swiftpm/
+*.xcodeproj/
+DerivedData/
+.worktrees/
+.DS_Store
+*.log
+
+# Local Claude Code state
+.claude/settings.local.json
+.claude/worktrees/
