@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Opening the popover right after a background sample could show SysBar itself, and other
+  briefly busy processes, at about 100% CPU in Top CPU for one update. Process CPU is now
+  only computed over at least one second; a sample that comes sooner repeats the last full
+  reading.
+
 ## [1.2.0] - 2026-10-16
 
 First public release. Earlier versions were developed privately and aren't listed here.

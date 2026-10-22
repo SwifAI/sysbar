@@ -219,7 +219,16 @@ actor ProcessSampler {
     /// exact start time, so a recycled PID can never inherit another's ticks.
     static let maxDeltaWindowSec: Double = 150
 
+    /// Shortest window that yields a fresh CPU figure. Opening the popover just
+    /// after a watch sample samples again milliseconds later; over that window
+    /// SysBar is on-CPU doing the sampling itself and read about 100%. A sample
+    /// that comes too soon repeats the last full-window figures and keeps the
+    /// older baseline, so the next sample measures a real interval. It stays
+    /// well under the popover's ~3-second tick.
+    static let minDeltaWindowSec: Double = 1
+
     private var prevTicks: [ProcessInstanceID: UInt64] = [:]
+    private var prevCPUPercent: [ProcessInstanceID: Double] = [:]
     private var prevSampleNanos: UInt64 = mach_absolute_time()
     private var nameCache: [ProcessInstanceID: String] = [:]
     private var pathCache: [ProcessInstanceID: String] = [:]
@@ -275,12 +284,17 @@ actor ProcessSampler {
         // reports 0% and re-resolves names rather than a stale average.
         if elapsedSec > Self.maxDeltaWindowSec {
             prevTicks = [:]
+            prevCPUPercent = [:]
             nameCache = [:]
             pathCache = [:]
         }
+        // A first sample (no baseline yet) always establishes one.
+        let windowTooShort = !prevTicks.isEmpty && elapsedSec < Self.minDeltaWindowSec
 
         var newTicks: [ProcessInstanceID: UInt64] = [:]
         newTicks.reserveCapacity(pids.count)
+        var newCPUPercent: [ProcessInstanceID: Double] = [:]
+        newCPUPercent.reserveCapacity(pids.count)
         var samples: [ProcSample] = []
         samples.reserveCapacity(pids.count)
         var freshNameCache: [ProcessInstanceID: String] = [:]
@@ -313,9 +327,16 @@ actor ProcessSampler {
             let totalTicks = info.ptinfo.pti_total_user &+ info.ptinfo.pti_total_system
             newTicks[instanceID] = totalTicks
 
-            let prev = prevTicks[instanceID] ?? totalTicks
-            let deltaTicks = totalTicks >= prev ? totalTicks - prev : 0
-            let cpuPercent = Self.cpuPercent(deltaTicks: deltaTicks, elapsedSec: elapsedSec, timebase: timebase)
+            let cpuPercent: Double
+            if windowTooShort {
+                // A process born since the last full window has no figure yet.
+                cpuPercent = prevCPUPercent[instanceID] ?? 0
+            } else {
+                let prev = prevTicks[instanceID] ?? totalTicks
+                let deltaTicks = totalTicks >= prev ? totalTicks - prev : 0
+                cpuPercent = Self.cpuPercent(deltaTicks: deltaTicks, elapsedSec: elapsedSec, timebase: timebase)
+            }
+            newCPUPercent[instanceID] = cpuPercent
 
             let residentMB = Int(info.ptinfo.pti_resident_size / Bytes.mb)
 
@@ -349,8 +370,11 @@ actor ProcessSampler {
             ))
         }
 
-        prevTicks = newTicks
-        prevSampleNanos = now
+        if !windowTooShort {
+            prevTicks = newTicks
+            prevSampleNanos = now
+        }
+        prevCPUPercent = newCPUPercent  // drops dead process instances
         nameCache = freshNameCache  // drops dead process instances
         pathCache = freshPathCache
 

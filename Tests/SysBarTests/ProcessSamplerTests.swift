@@ -36,6 +36,26 @@ final class ProcessSamplerTests: XCTestCase {
         XCTAssertGreaterThan(own.cpuPercent, 50, "a spinning thread is about 100%; a units error reads about 2%")
         XCTAssertLessThan(own.cpuPercent, 1_000)
     }
+
+    /// Opening the popover right after a watch sample used to take the next
+    /// sample milliseconds later. Over that window this process is on-CPU
+    /// doing the sampling itself, so an idle SysBar read about 100%.
+    func testBackToBackSamplesRepeatTheLastFullWindowInsteadOfReadingTheSamplerItself() async throws {
+        let sampler = ProcessSampler()
+        _ = await sampler.sampleProcessesResult()
+        try await Task.sleep(nanoseconds: 1_200_000_000)
+        let full = try await sampler.sampleProcessesResult().get()
+        let immediate = try await sampler.sampleProcessesResult().get()
+        let fullOwn = try XCTUnwrap(full.first { $0.pid == getpid() })
+        let immediateOwn = try XCTUnwrap(immediate.first { $0.pid == getpid() })
+        XCTAssertLessThan(immediateOwn.cpuPercent, 50, "an idle process must not read as a full core over a few milliseconds")
+        XCTAssertEqual(immediateOwn.cpuPercent, fullOwn.cpuPercent, accuracy: 0.001)
+    }
+
+    func testTheMinimumWindowIsShorterThanThePopoverTickSoOpenPanelSamplesStayFresh() {
+        XCTAssertGreaterThanOrEqual(ProcessSampler.minDeltaWindowSec, 0.5)
+        XCTAssertLessThan(ProcessSampler.minDeltaWindowSec, 3)
+    }
 }
 
 private extension Duration {
