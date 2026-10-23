@@ -10,10 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/images/popover-dark.png">
-    <img src="docs/images/popover-light.png" width="380" alt="The SysBar popover: a status line reading Everything looks normal, CPU, memory, swap and disk drawn as four live lanes on one three-minute timeline, and the top CPU processes with their app icons">
-  </picture>
+  <img src="docs/images/demo.gif" width="380" alt="SysBar in action: the status line reads Everything looks normal, then the CPU lane climbs and the status line changes to 1 thing needs attention, with a card saying Editor (Renderer) has used 208% CPU for 6 minutes and the buttons Restart Editor and Open Editor. The pointer clicks Restart Editor, SysBar reports Done, Editor (Renderer) back to 4%, Editor reopened, and the status line returns to Everything looks normal.">
 </p>
 
 SysBar sits in your menu bar as a tiny CPU sparkline. Click it to see CPU, memory, swap and disk on one three-minute timeline, the processes behind them, and every port your Mac is listening on. When something goes wrong (an app stuck at full CPU, swap growing, disk filling, a new app accepting connections from your network), the status line says so and offers one or two buttons that fix it.
@@ -34,6 +31,13 @@ It is built only on Apple's frameworks. There are no third-party dependencies, n
 - **Opt-in alerts.** Notifications for new LAN-exposed listeners, VPN changes and critically low memory. SysBar asks for notification permission only when you turn alerts on.
 - **Keep Awake.** An IOKit power assertion keeps the display awake until you turn it off or quit SysBar.
 - **Accessible by default.** Dynamic Type, full keyboard control, VoiceOver (each lane is also an Audio Graph), Reduce Motion, Differentiate Without Color and semantic colors.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/popover-dark.png">
+    <img src="docs/images/popover-light.png" width="380" alt="The full SysBar popover: a status line reading Everything looks normal, CPU, memory, swap and disk drawn as four live lanes on one three-minute timeline, and the top CPU processes with their app icons">
+  </picture>
+</p>
 
 ## Install
 
